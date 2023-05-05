@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-index {
+  width: 300px;
+}
+
+div.main {
+  width: 800px;
+  margin: 100px auto;
+  text-align: center;
+}
+div.main h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+div.desc {
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+div.desc a {
+  color: #ff0000;
+  margin: 20px;
+}
+div.desc a::after,
+div.desc a::before {
+  content: " ";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ff0000;
+  margin: 0 5px 0 5px;
+}
+
+div.skills {
+  font-size: 24px;
+  font-weight: bold;
+  width: 80vw;
+  position: relative;
+  left: 100px;
+  position: relative;
+}
+
+div.skills p {
+  position: absolute;
+  left: 50vw;
+  display: inline-block;
+  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
+}
+
+.ul-li {
+  color: blueviolet;
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+}
